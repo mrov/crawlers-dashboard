@@ -7,8 +7,26 @@ body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #404040;
 }
 
 .spacer {
   flex: 1 1 auto;
+}
+
+.highcharts-background {
+  fill: rgb(0 0 0) !important;
+}
+
+.highcharts-title {
+  color: white !important;
+  fill: white !important;
+}
+
+.mat-mdc-card.mdc-card.mat-dark-theme {
+  background: #303030;
+}
+
+.mat-drawer-content.mat-sidenav-content {
+  background-color: #404040;
 }
